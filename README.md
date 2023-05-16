@@ -10,7 +10,9 @@ This project will create a random word generator for Dyslexic children sound out
 Once a word has been generated, the student will need to sound out the word.
 
 ## Build Status
-v1.0 written in JavaScript only and run on Node.
+v1.1 written in JavaScript only and run on Node.
+ ### .1 update
+  Expanded output message to include soundings via variables calling previous fuction rather than direct call in the output text.
 
 ## Contributiors
 Jake Herman as developer
