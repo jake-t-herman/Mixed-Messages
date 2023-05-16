@@ -10,8 +10,10 @@ const soundSelector = batch => {
 };
 
 const wordGenerator = () => {
+    let soundOne = soundSelector(Initial)
+    let soundTwo = soundSelector(Medial)
+    let soundThree=soundSelector(Final)
+    console.log(`Your word to pronounce: ${soundOne}${soundTwo}${soundThree}, sounded as ${soundOne}-${soundTwo}-${soundThree}`)
+};
 
-    console.log(`Your word to pronounce: ${soundSelector(Initial)}${soundSelector(Medial)}${soundSelector(Final)}`)
-}
-
-wordGenerator()
+wordGenerator();
